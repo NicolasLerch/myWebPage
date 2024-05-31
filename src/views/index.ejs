@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/head.ejs')%>
+    <link rel="stylesheet" href="css/indexStyles.css">
+    <title>Nicolas Lerch</title>
+</head>
+<body>
+    <%-include('./partials/header.ejs')%>
+    <main>
+        <section id="introduction" class="introduction">        
+            <div class="main-info-container">
+                <div class="title-container">
+                    <h3>I am Nicolás</h3>
+                    <h1 class="developer">Web Developer</h1>
+                </div>
+                <div class="description-container-desktop">
+                    <p class="description">I am an emerging web developer with passion 
+                        for creating innovative and functional solutions, 
+                        with experience in developing ecommerce projects.</p>
+                </div>
+                
+            </div>
+            <div class="image-container">
+                <img src="images/mainImage.JPG" alt="main image">
+            </div>
+            <div class="description-container-mobile">
+                <p class="description">I am an emerging web developer with passion 
+                    for creating innovative and functional solutions, 
+                    with experience in developing ecommerce projects.</p>
+            </div>
+            <div class="links-container">
+                <button class="download-button" type="button">Download CV
+                    <i class="fa-solid fa-download"></i>
+                </button>
+                <div class="links">
+                    <a href="https://github.com/NicolasLerch" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nicolas-lerch/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>        
+
+    </main>
+
+    <%-include('./partials/footer.ejs')%>
+
+</body>
+</html>
