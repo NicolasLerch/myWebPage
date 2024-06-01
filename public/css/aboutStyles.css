@@ -1,0 +1,170 @@
+.title-container{
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+
+.main-title{
+    color: rgb(106, 25, 182);
+    font-size: 3em;
+    text-align: center;
+}
+
+.highlight{
+    color: rgb(255, 94, 0);
+    font-weight: 500;
+}
+
+.subtitle{
+    position: relative;
+    top: 50px;
+    margin-left: 2.5%;
+    color:rgb(106, 25, 182);
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+.about-me{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.description{
+    position: relative;
+    top: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.img-container{
+    width: 50%;
+    text-align:center;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.img-container img{
+    width: 100%;
+    margin: auto;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.ed-description{
+    position: relative;
+    top: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.education-panel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.icon-btn{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(106, 25, 182);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icon-btn:hover{
+    cursor:pointer;
+}
+
+.info-container{
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.certificates-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info-img{
+    /* height: 25vw; */
+    width: 30vw;
+    border: 1px solid rgb(106, 25, 182);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.show{
+    display: block !important;
+}
+
+.hide{
+    display: none;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+@media (max-width: 799px){
+    .about-me{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .img-container, .description{
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-container{
+        margin-top: 20px;
+    }
+
+    .description{
+        position: inherit;
+        margin: auto;
+    }
+
+    .ed-description{
+        margin: auto;
+    }
+
+    .info-container{
+        margin:5px;
+        padding: 5px;
+        margin-top: 45px;
+    }
+}

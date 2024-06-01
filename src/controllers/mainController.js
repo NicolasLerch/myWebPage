@@ -4,6 +4,9 @@ const controller = {
     },
     projects: function (req, res){
         res.render('projects')
+    },
+    about: function (req, res){
+        res.render('about')
     }
 }
 

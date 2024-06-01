@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/head')%>
+    <link rel="stylesheet" href="css/aboutStyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <%-include('./partials/header')%>
+
+    <div class="title-container">
+        <span class="main-title">
+            Hello! My name is Nicolás, and I am a 
+        </span> 
+        <span class="main-title highlight">
+            Web Developer 
+        </span>
+        <span class="main-title">
+            from Córdoba Argentina
+        </span>
+    </div>
+    
+    <main>
+        <h3 class="subtitle">About me</h3>
+        <div class="about-me">            
+            <p class="description">
+                I am a self-taught programmer currently focused on web development, 
+                with a particular interest in Back End technologies, and experience
+                mainly with Node.js, Express, MongoDB, and mySQL. Additionally, 
+                I have proficiency in CSS and Python, and bases in Java. While I 
+                do not have prior experience working as a Full-Time Developer, 
+                I have undertaken various personal projects showcased on 
+                my GitHub profile, wich you can see <a href="/projects">here</a>.
+            </p>
+            <div class="img-container">
+                <img src="images/mainImage.JPG" alt="main Image">
+            </div>
+        </div>
+
+        <h3 class="subtitle">Education</h3>
+        <div class="education">
+            <div class="education-container">
+                <div class="education-description">
+                    <p class="ed-description">
+                        Although I am mostly self-taught, over the years I have 
+                        taken different courses in order to improve my skills and 
+                        knowledge in this field. Starting with CSS and Java, 
+                        I have also had encounters with Python, 
+                        and finally discovered JavaScript, language 
+                        I am currently focusing on.
+                    </p>
+                </div>
+
+                <div class="education-panel">
+                    <div class="icons-container">
+                        <button class="icon-btn disabled" id="html-css-btn">HTML CSS</button>
+                        <button class="icon-btn" id="java-btn">Java</button>
+                        <button class="icon-btn" id="python-btn">Python</button>
+                        <button class="icon-btn" id="js-btn">JS</button>
+                        <button class="icon-btn" id="languages-btn">Languages</button>
+                        <button class="icon-btn">Other</button>
+                    </div>
+                    <div class="info-container">
+                        <div id="html-css" class="html-css">
+                            <p>
+                                These were the first lenguages I had contact with when I starded.
+                                I took some curses from Google Activate, and those where my basis
+                                for learning. From those days to now, I have used them in most
+                                of my works, continously improving my knowledge and skills.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/html1.jpg" target="_blank"><img class="info-img" src="images/html1.jpg" alt="html certificate"></a>
+                                <a href="/images/html2.jpg" target="_blank"><img class="info-img" src="images/html2.jpg" alt="html certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="java hide" id="java">
+                            <p>
+                                Java was my first encounter with backend development. I took a course 
+                                in CorderHouse, I continue studying it my self. Although I remember was
+                                really challenging, it was at this moment I realised I prefer backend.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/java.png" target="_blank"><img class="info-img" src="images/java.png" alt="java certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="python hide" id="python">
+                            <p>
+                                After Java, I delved into Python. Mostly through a course from Udemy, 
+                                I learned the basics and made a few projects, which I did not finish, but they are still in my GitHub repository.
+                            </p>
+                            <!-- <div class="certificates-container">
+                                <a href="/images/java.png" target="_blank"><img class="info-img" src="images/java.png" alt="java certificate"></a>
+                            </div> -->
+                        </div>
+                        <div class="js hide" id="js">
+                            <p>
+                                As mentioned before, JavaScript is the main language 
+                                I am focusing on and in which I consider 
+                                I have the most experience, primarily with Node.js and Express. 
+                                In fact, as you can see, most of my work is done with JS.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/JSbackend.jpg" target="_blank"><img class="info-img" src="images/JSbackend.jpg" alt="JavaScript certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="languages hide" id="languages">
+                            <p>
+                                I have studied English since I was about 5 years old, both in school 
+                                and in different academies in the traditional way. However, it was when 
+                                I grew up that I really understood the importance of English, 
+                                so I decided to truly learn it. Although I took the CAE exam, 
+                                I believe I learned the most later, through traveling, meeting people, 
+                                and especially due to social media for everyday use, as well as technical 
+                                language in programming and medicine.
+                                Concerning French, I know the basics, as I only studied it in school
+                                and for one semester in a course offered by the university.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/CAE.png" target="_blank"><img class="info-img" src="images/CAE.png" alt="CAE certificate"></a>
+                                <a href="/images/frances1.jpg" target="_blank"><img class="info-img" src="images/frances1.jpg" alt="French certificate"></a>
+                            </div>                            
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/about.js"></script>
+    <%-include('./partials/footer')%>
+</body>
+</html>
