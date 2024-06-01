@@ -107,21 +107,32 @@ footer{
 
 .lang-button{
     border: none;
-    border-radius: 5px;
-    border: 1px solid rgb(106, 25, 182);
-    background-color: white;
+    border-radius: 5px;    
     margin:0px;
     padding: 5px 10px;
+
+    border: 1px solid rgb(106, 25, 182);
+    background-color: white;
+    color: rgb(106, 25, 182);
 }
 
-#en{
-    background-color: rgb(106, 25, 182);
-    color: white;
+.lang-button:hover{
+    cursor: pointer;
+}
+
+#en{    
     border-radius: 5px 0px 0px 5px;
 }
 
 #es{
     border-radius: 0px 5px 5px 0px;
+}
+
+.selected{
+    background-color: rgb(106, 25, 182);
+    color: white;
+    border: 1px solid rgb(106, 25, 182);
+    pointer-events: none;
 }
 
 
