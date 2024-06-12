@@ -1,6 +1,8 @@
-// const path = require('path')
+const path = require('path')
+const fs = require('fs')
 
-// const projects = require(path.join(__dirname, '../src/data/projects.json'));
+const projectsPath = fs.readFileSync(path.join(__dirname, '../data/projects.json'), 'utf-8')
+const projects = JSON.parse(projectsPath);
 
 const controller = {
     mainPage: function(req, res){
@@ -17,6 +19,11 @@ const controller = {
     },
     skills: function(req, res){
         res.render('skills')
+    },
+    projectDetail: function(req, res){
+        const project = projects.find(project => project.id == req.params.id)
+        res.render('projectDetail', {project: project})
+        // res.send(projectsJSON)
     }
 }
 

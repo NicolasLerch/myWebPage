@@ -6,16 +6,43 @@
     <link rel="stylesheet" href="/css/projectDetail.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Project | <%=project.title%></title>
 </head>
 <body>
     <%-include('./partials/header')%>
 
     <main>
-        <section>
-            <h1 class="main-title">Project</h1>
+        <h1 class="main-title"><%=project.title%></h1>
+        <section class="project">
+            
+            <div class="project-img">
+                <img src="/images/<%=project.image%>" alt="<%=project.title%>">
+            </div>
+            <div class="description-container">
+                <p class="description"><%=project.description%></p>
+            </div>
         </section>
+        <div class="languages-used">
+            <h2>Languages used:</h2>
+            <%for (let language of project.languages){%>
+            <ul>
+                <li><%=language%></li>
+            </ul>
+            <%}%>
+        </div>
+        <div class="libraries">
+            <h2>Libraries used:</h2>
+            <%for (let library of project.libraries){%>
+                <ul>
+                    <li><%=library%></li>
+                </ul>
+            <%}%>
+        </div>
 
+        <section class="other-projects">
+
+
+        </section>
     </main>
 
     <%-include('./partials/footer')%>

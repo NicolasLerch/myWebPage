@@ -1,6 +1,26 @@
 [
     {
+        "id":1,
         "title":"Santa-Barber",
-        "description": "This is a webPage made with nodejs and express. This page aims mostly to achieve a quick way to get an appointment."
+        "image":"SantaBarberia.png",
+        "description": "This is a webPage made with nodejs and express. This page aims mostly to achieve a quick way to get an appointment.",
+        "languages":[
+            "JavaScript", "CSS", "HTML"
+        ],
+        "libraries":[
+            "Nodejs", "Express", "EJS", "Multer", "React"
+        ]
+    },
+    {
+        "id":2,
+        "image":"streang-logo-v1.png",
+        "title":"Streang",
+        "description": "Made as project por a fullStack Developer course, this is a team project for an ecommerce",
+        "languages":[
+            "JavaScript", "CSS", "HTML", "mySQL"
+        ],
+        "libraries":[
+            "Nodejs", "Express", "EJS", "Multer", "React", "Sequelize"
+        ]
     }
 ]
