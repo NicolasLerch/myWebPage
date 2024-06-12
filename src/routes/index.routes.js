@@ -5,6 +5,7 @@ const mainController = require('../controllers/mainController')
 router.get('/', mainController.mainPage)
 router.get('/projects', mainController.projects)
 router.get('/about', mainController.about)
-// router.get('/contact', mainController.contact)
+router.get('/contact', mainController.contact)
+router.get('/skills', mainController.skills)
 
 module.exports = router;
