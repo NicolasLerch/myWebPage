@@ -1,3 +1,7 @@
+// const path = require('path')
+
+// const projects = require(path.join(__dirname, '../src/data/projects.json'));
+
 const controller = {
     mainPage: function(req, res){
         res.render('index')
