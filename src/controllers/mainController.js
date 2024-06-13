@@ -21,9 +21,13 @@ const controller = {
         res.render('skills')
     },
     projectDetail: function(req, res){
+        let idExists = projects.find(project => project.id == req.params.id);
+        if(isNaN(req.params.id) || !idExists){
+            return res.redirect('/404')
+        }            
         const project = projects.find(project => project.id == req.params.id)
         res.render('projectDetail', {project: project})
-        // res.send(projectsJSON)
+            
     }
 }
 
