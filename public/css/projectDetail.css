@@ -1,0 +1,122 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:left; */
+    align-items: left;
+    width: 90%;
+}
+
+.main-title{
+    font-size: 2rem;
+    color: rgb(106, 25, 182);
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 7%;
+}
+
+.project-img{
+    width: 50%;
+    /* height: 300px; */
+    object-fit: cover;
+    border-bottom: 1px solid grey;
+}
+
+.project-img img{
+    height: 80%;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+
+.description-container{
+    width: 90%;
+}
+
+.languages-used{
+    margin-top: 10px;
+    /* border: 1px dotted green; */
+    padding: 10px;
+    text-align: left;
+    align-self: flex-start;
+    /* margin-left: 2%; */
+}
+
+.languages-used i{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: rgba(106, 25, 182,0.7);
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+.project-subtitle{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    /* font-weight: 100; */
+}
+
+.project-button{
+    margin-top: 25px;
+    background-color: rgb(106, 25, 182);
+    border: 1px solid rgb(106, 25, 182);
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.75;
+    transition: 0.3s;
+    font-weight: 100;
+    text-decoration: none;
+    width: 80px;
+    align-self: flex-start;
+}
+
+.project-button:hover{
+    transition: 0.3s;
+    color:rgb(106, 25, 182);
+    background-color: white;
+    border: 1px solid rgb(106, 25, 182);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 699px){
+    .main-title{
+        font-size: 2.5rem;
+        text-align: center !important;
+        align-self: center !important;
+        margin-left: 0;
+    }
+
+    .project-img{
+        margin: auto;
+        width: 90%;
+    }
+
+    .project-img img{
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .project{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-container{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .project-button, .languages-used{
+        margin-left: 3%;
+    }
+
+}

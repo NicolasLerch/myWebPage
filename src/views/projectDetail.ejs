@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/head')%>
+    <link rel="stylesheet" href="/css/mainStyles.css">
+    <link rel="stylesheet" href="/css/projectDetail.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | <%=project.title%></title>
+</head>
+<body>
+    <%-include('./partials/header')%>
+
+    <main>
+        <h1 class="main-title"><%=project.title%></h1>
+        <section class="project">            
+            <div class="project-img">
+                <img src="/images/<%=project.image%>" alt="<%=project.title%>">
+            </div>
+            <div class="languages-used">
+                <%for(let language of project.languages){%>                    
+                    <i class="<%=language.icon%>"></i>                    
+                <%}%>
+            </div>
+            <div class="description-container">
+                <p class="description"></p>
+                <h3 class="project-subtitle">Summary</h3>
+                <%=project.description.summary%>
+                <h3 class="project-subtitle">Objectives</h3>
+                <%=project.description.objectives%>
+                <h3 class="project-subtitle">Technologies Used</h3>
+                <%for(let technology of project.description.technologies){%>
+                    <ul>
+                        <li><strong><%=technology.name%></strong>: <%=technology.text%></li>
+                    </ul>
+                <%}%>
+                <h3 class="project-subtitle">Key Features</h3>
+                <%for(let feature of project.description.keyFeatures){%>
+                    <ul>
+                        <li><strong><%=feature.name%></strong>: <%=feature.text%></li>
+                    </ul>
+                <%}%>
+                <h3 class="project-subtitle">Role and contributions</h3>
+                <%=project.description.role%>
+                <h3 class="project-subtitle">Impact</h3>
+                <%=project.description.impact%>
+                
+            </div>
+            <a href="<%=project.link%>" target="_blank" class="project-button">Live</a>
+        </section>
+        
+
+        <section class="other-projects">
+
+
+        </section>
+    </main>
+
+    <%-include('./partials/footer')%>
+    
+</body>
+</html>

@@ -1,0 +1,244 @@
+.title-container{
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+
+.main-title{
+    color: rgb(106, 25, 182);
+    font-size: 3em;
+    text-align: center;
+}
+
+.highlight{
+    color: rgb(255, 94, 0);
+    font-weight: 500;
+}
+
+.subtitle{
+    position: relative;
+    top: 50px;
+    margin-left: 2.5%;
+    color:rgb(106, 25, 182);
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+.about-me{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.description{
+    position: relative;
+    top: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.img-container{
+    width: 50%;
+    text-align:center;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.img-container img{
+    width: 100%;
+    margin: auto;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.ed-description{
+    position: relative;
+    top: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.education-panel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.icon-btn{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(106, 25, 182);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icon-btn:hover{
+    cursor:pointer;
+}
+
+.info-container{
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.certificates-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info-img{
+    /* height: 25vw; */
+    width: 30vw;
+    border: 1px solid rgb(106, 25, 182);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.show{
+    display: block !important;
+}
+
+.hide{
+    display: none;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+@media (max-width: 799px){
+    .main-title{
+        font-size: 2em;
+    }
+
+    .subtitle{
+        margin-left: 6%;
+    }
+
+    .about-me{
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+
+    .education-panel{
+        flex-direction: column;
+    }
+
+    p.ed-description, p.description{
+        margin: 10px;
+        margin-bottom: 4    0px;
+    }
+
+    .icons-container{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .icon-btn{
+        width: 30%;
+    }
+
+
+    .img-container, .description{
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-container{
+        margin-top: 20px;
+        /* width: 90%; */
+    }
+
+    .description{
+        position: inherit;
+        margin: auto;
+        width: 90%;
+    }
+
+    .ed-description{
+        margin: auto;
+    }
+
+    .info-container{
+        margin:auto;
+        padding: 5px;
+        margin-top: 45px;
+        width: 95%;
+    }
+
+    .certificates-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .certificates-container a{
+        width: 48%;
+    }
+
+    .info-img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 665px){
+    .icons-container{
+        width: 100%;
+    }
+
+    .icon-btn{
+        width: 45%;
+    }
+}
+
+@media (max-width: 420px){
+    .icons-container{
+        width: 100%;
+    }
+
+    .icon-btn{
+        width: 100%;
+    }
+}

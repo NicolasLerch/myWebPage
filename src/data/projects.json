@@ -1,0 +1,217 @@
+[
+    {
+        "id":1,
+        "title":"Santa-Barber",
+        "image":"SantaBarberia.png",
+        "shortDescription": "A website created for a barber shop primarily to provide customers with an easy, fast, and automated way to schedule appointments.",
+        "description":{
+            "summary":"SantaBarber is an elegant and modern website created exclusively for a barbershop, designed to make it easy for clients to book appointments quickly and efficiently.",
+            "objectives":"The main goal of this project was to provide clients with a simple and accessible booking system available 24/7. Additionally, it aimed to reflect the essence of the brand, highlighting the quality of its services and attention to detail.",
+            "technologies":[
+                {
+                    "name":"JavaScript",
+                    "text":"Utilized for both frontend and backend development."
+                },
+                {
+                    "name":"Node.js and Express",
+                    "text":"Used to build the server infrastructure and application logic."
+                },
+                {
+                    "name":"Calendly API",
+                    "text":"Integrated to manage appointment scheduling."
+                },
+                {
+                    "name":"HTML and CSS",
+                    "text":"For the structure and visual styling of the page."
+                }
+            ],
+            "keyFeatures":[
+                {
+                    "name":"Quick Booking System",
+                    "text": " Integration with Calendly allows clients to book an appointment in just three clicks, with instant confirmation."
+                },
+                {
+                    "name":"Automatic Notifications",
+                    "text": "Bookings are recorded and notified to the owner in real-time, ensuring efficient management."
+                },
+                {
+                    "name":"Modern and Elegant Design",
+                    "text": "A visual style that balances classic elements with modern touches, accurately representing the brand."
+                }
+            ],
+            "role":"I developed this project from start to finish, handling everything from planning and design to coding and integrating external services.",
+            "impact":"The system significantly improved the client booking experience, reducing the time and complexity of the process. Additionally, the online presence helped reflect the professionalism and quality of the barbershop, attracting more clients."
+            }
+        ,
+        "languages":[
+            {
+                "name":"JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name":"CSS",
+                "icon": "fa-brands fa-css3"
+            },
+            {
+                "name":"HTML",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name":"Nodejs",
+                "icon": "fa-brands fa-node-js"
+            },
+            {
+                "name":"React",
+                "icon": "fa-brands fa-react"
+            }
+        ],
+        "link": "https://santabarberia-production.up.railway.app/"
+    },
+    {
+        "id":2,
+        "image":"streang-logo-v1.png",
+        "title":"Streang",
+        "shortDescription": "An ecommerce designed for a tech store, oriented mainly to videogames and PC related stuff.",
+        "description":{
+            "summary":"Streang is an e-commerce platform developed as a team project during a full-stack development course. The site allows users to register and purchase a variety of products, both digital and physical, primarily focused on computing and video games.",
+            "objectives":"Our primary goal was to create a user-friendly website where users could sign up and access a broad range of products related to computing and gaming. The platform needed to support both digital and physical products and provide a seamless shopping experience.",
+            "technologies":[
+                {
+                    "name":"JavaScript",
+                    "text":"For dynamic client-side interactions."
+                },
+                {
+                    "name":"Node.js and Express",
+                    "text":"To handle server-side logic and API endpoints."
+                },
+                {
+                    "name":"React",
+                    "text":"For building a responsive and interactive user interface."
+                },
+                {
+                    "name":"HTML and CSS",
+                    "text":"For the structure and styling of the web pages."
+                },
+                {
+                    "name":"mySQL",
+                    "text":"Used as the relational database to store product and user information."
+                },
+                {
+                    "name":"Sequelize",
+                    "text": "As the Object-Relational Mapping (ORM) tool for database management."
+                }
+            ],
+            "keyFeatures":[
+                {
+                    "name":"Role-Based Access Control",
+                    "text": "Users have different access levels and page views based on their roles, whether they are customers or administrators."
+                },
+                {
+                    "name":"Dynamic Product Listing",
+                    "text": "A user-friendly product management system with a dynamic interface that shows real-time previews of products as they are being added."
+                },
+                {
+                    "name":"Data Validation System",
+                    "text": "Ensures data integrity and security through comprehensive validation processes."
+                }
+            ],
+            "role":"Although this was a team effort, I took on the role of project leader. I organized regular meetings and distributed tasks fairly among team members. I was always ready to assist and contribute in various areas. Initially, I focused on the development of HTML and CSS to structure and style the site. Later, I primarily worked on the backend, using Express, Sequelize, and MySQL to implement CRUD operations for user and product management.",
+            "impact":"As the project was part of a course, it was never launched into production. However, it served as a valuable learning experience and a showcase of our ability to collaborate effectively and build a functional, feature-rich e-commerce platform."
+        },
+        "languages":[
+            {
+                "name":"JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name":"CSS",
+                "icon": "fa-brands fa-css3"
+
+            },
+            {
+                "name":"HTML",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name":"mySQL",
+                "icon": "fa-solid fa-database"
+            },
+            {
+                "name":"Nodejs",
+                "icon": "fa-brands fa-node-js"
+            },
+            {
+                "name":"React",
+                "icon": "fa-brands fa-react"
+            }
+        ],
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "title": "LaBuleka",
+        "image": "logo.png",
+        "shortDescription": "An e-commerce website for a greengrocer, designed to allow customers to quickly place their orders online.",
+        "description": {
+            "summary": "LaBuleka is an e-commerce website developed for a greengrocer, designed to offer customers a quick and convenient way to place their orders online.",
+            "objectives": "The primary aim of this project was to provide customers with a web service where they could not only view prices and promotions but also place their orders online quickly and efficiently. This system allows customers to avoid waiting in line at the store by enabling them to pick up their pre-prepared orders.",
+            "technologies": [
+                {
+                    "name": "JavaScript",
+                    "text": "For creating a dynamic frontend experience."
+                },
+                {
+                    "name": "Node.js",
+                    "text": "To handle server-side operations."
+                },
+                {
+                    "name": "MySQL",
+                    "text": "As the relational database system to manage product and order data."
+                },
+                {
+                    "name": "Sequelize",
+                    "text": "As the ORM tool for database management."
+                },
+                {
+                    "name": "HTML and CSS",
+                    "text": "For structuring and styling the web pages."
+                }
+            ],
+            "keyFeatures": [
+                {
+                    "name": "Integrated Shopping and Payment System",
+                    "text": "A seamless checkout process that combines shopping and payment in one place."
+                },
+                {
+                    "name": "User Role-Based Views and Functions",
+                    "text": "Different functionalities and views based on whether the user is a customer or an administrator."
+                },
+                {
+                    "name": "Comprehensive Development",
+                    "text": "This project was completed solely by me, from the initial design to the full implementation of both the frontend and backend."
+                }
+            ],
+            "role": "I was responsible for the entire development process of this project. This included designing the website, coding the frontend and backend, and integrating all necessary technologies. My work spanned from creating the dynamic user interface to managing the database operations with MySQL and Sequelize.",
+            "impact": "The impact of the project has not yet been measured, as it is currently awaiting production deployment."
+        },
+        "languages": [
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3"
+            },
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name": "Node.js",
+                "icon": "fa-brands fa-node-js"
+            }
+        ],
+        "link": "#"
+    }    
+]
