@@ -9,7 +9,7 @@ const controller = {
         res.render('index')
     },
     projects: function (req, res){
-        res.render('projects')
+        res.render('projects', {projects})
     },
     about: function (req, res){
         res.render('about')

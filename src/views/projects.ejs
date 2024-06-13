@@ -11,83 +11,25 @@
     <%-include('./partials/header.ejs')%>
     <h1 class="main-title">My current projects</h1>
     <main>
-        
+        <%for(let project of projects){%>
         <div class="project-container">
-            <h3 class="project-title">LaBuleka</h3>
+            <h3 class="project-title"><%=project.title%></h3>
             <div class="img-container">
-                <img src="/images/logo.png" alt="LaBuleka logo">
+                <img src="/images/<%=project.image%>" alt="LaBuleka logo">
             </div>
             <div class="description-container">
-                <p class="description">An ecommerce created for a 
-                    greengrocery, where clients can see and buy the products.
-                    Made with node.js, and using mySQL as DataBase.
-                    Lore ipsum..
+                <p class="description"><%=project.shortDescription%>
                 </p>
             </div>
             <div class="buttons-container">
-                <!-- <a href="#" class="project-button">GitHub</a> -->
-                <a href="#" class="project-button">Live</a>
-                <!-- <button class="project-button">Live</button> -->
-                <a href="#" class="project-button">More info</a>
-                <!-- <button class="project-button">More info</button> -->
-            </div>
-            
-        </div>
-        <div class="project-container">
-            <h3 class="project-title">Streang</h3>
-            <div class="img-container">
-                <img src="/images/streang-logo-v1.png" alt="Streang logo">
-            </div>
-            <div class="description-container">
-                <p class="description">
-                    This project was made as part of a FullStack Web Developer course I took.
-                    It is an ecommerce designed for a tech store, oriented mainly
-                    to videogames and PC related stuff.
-                </p>
-            </div>
-            <div class="buttons-container">
-                <!-- <a href="#" class="project-button">GitHub</a> -->
-                <a href="#" class="project-button">Live</a>
-                <a href="#" class="project-button">More info</a>
-            </div>
-        </div>
-        <div class="project-container">
-            <h3 class="project-title">Santa Barber</h3>
-            <div class="img-container">
-                <img src="/images/SantaBarberia.png" alt="SantaBarber logo">
-            </div>
-            <div class="description-container">
-                <p class="description">
-                    A website created for a barber shop to promote 
-                    the brand and primarily to provide customers with 
-                    an easy, fast, and automated way to schedule appointments.
-                </p>
-            </div>
-            <div class="buttons-container">
-                <!-- <a href="#" class="project-button">GitHub</a> -->
-                <a target="_blank" href="https://santabarberia-production.up.railway.app/" class="project-button">Live</a>
-                <a href="#" class="project-button">More info</a>
-            </div>            
-        </div>
-        <div class="project-container">
-            <h3 class="project-title">Santa Barber</h3>
-            <div class="img-container">
-                <img src="/images/barber.jpg" alt="SantaBarber logo">
-            </div>
-            <div class="description-container">
-                <p class="description">
-                    A website created for a barber shop to promote 
-                    the brand and primarily to provide customers with 
-                    an easy, fast, and automated way to schedule appointments.
-                </p>
-            </div>
-            <div class="buttons-container">
-                <!-- <a href="#" class="project-button">GitHub</a> -->
-                <a target="_blank" href="https://santabarberia-production.up.railway.app/" class="project-button">Live</a>
-                <a href="#" class="project-button">More info</a>
-            </div>            
-        </div>
 
+                <a href="<%=project.link%>" target="_blank" class="project-button">Live</a>
+
+                <a href="/projects/<%=project.id%>" class="project-button">More info</a>
+
+            </div>
+        </div>
+        <%}%>
     </main>
     
 
