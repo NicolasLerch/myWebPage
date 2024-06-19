@@ -28,6 +28,9 @@ const controller = {
         const project = projects.find(project => project.id == req.params.id)
         res.render('projectDetail', {project: project})
             
+    },
+    downloadCV: function(req, res){
+        res.download(path.join(__dirname, '../../public/LerchNicolas_CV.pdf'))
     }
 }
 
