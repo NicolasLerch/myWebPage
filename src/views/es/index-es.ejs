@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <%-include('../partials/head.ejs')%>
+    <link rel="stylesheet" href="css/indexStyles.css">
+    <title>Nicolas Lerch</title>
+</head>
+<body>
+    <%-include('../partials/headerEs.ejs')%>
+    <main>
+        <section id="introduction" class="introduction">        
+            <div class="main-info-container">
+                <div class="title-container">
+                    <h3 id="title">Soy Nicolás,</h3>
+                    <h1 class="developer" id="title-developer">Desarrollador Web</h1>
+                </div>
+                <div class="description-container-desktop">
+                    <p class="description" id="description">Soy un desarrollador web emergente con pasión
+                        por crear soluciones innovadoras y funcionales,
+                        con experiencia en el desarrollo de proyectos de comercio electrónico.</p>
+                </div>                
+            </div>
+            <div class="image-container">
+                <img src="images/mainImage.JPG" alt="main image">
+            </div>
+            <div class="description-container-mobile">
+                <p class="description">Soy un desarrollador web emergente con pasión
+                    por crear soluciones innovadoras y funcionales,
+                    con experiencia en el desarrollo de proyectos de comercio electrónico.</p>
+            </div>
+            <div class="links-container">
+                <form class="CV_download_form" action="/es/cv/download" method="get">
+                    <button id="download" class="download-button" type="submit">Descargar CV
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                </form>                
+                <div class="links">
+                    <a href="https://github.com/NicolasLerch" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nicolas-lerch/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="/es/contacto"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>        
+
+    </main>
+
+    <%-include('../partials/footerEs.ejs')%>
+
+</body>
+</html>

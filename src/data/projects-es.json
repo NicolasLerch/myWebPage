@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "title": "Santa-Barber",
+        "image": "SantaBarberia.png",
+        "shortDescription": "Un sitio web creado para una barbería, diseñado principalmente para proporcionar a los clientes una forma fácil, rápida y automatizada de programar citas.",
+        "description": {
+            "summary": "SantaBarber es un sitio web elegante y moderno creado exclusivamente para una barbería, diseñado para facilitar a los clientes la reserva de citas de manera rápida y eficiente.",
+            "objectives": "El objetivo principal de este proyecto fue proporcionar a los clientes un sistema de reservas simple y accesible, disponible las 24 horas del día. Además, se buscó reflejar la esencia de la marca, destacando la calidad de sus servicios y la atención al detalle.",
+            "technologies": [
+                {
+                    "name": "JavaScript",
+                    "text": "Utilizado tanto para el desarrollo frontend como backend."
+                },
+                {
+                    "name": "Node.js y Express",
+                    "text": "Usado para construir la infraestructura del servidor y la lógica de la aplicación."
+                },
+                {
+                    "name": "API de Calendly",
+                    "text": "Integrado para gestionar la programación de citas."
+                },
+                {
+                    "name": "HTML y CSS",
+                    "text": "Para la estructura y el estilo visual de la página."
+                }
+            ],
+            "keyFeatures": [
+                {
+                    "name": "Sistema de Reserva Rápida",
+                    "text": "La integración con Calendly permite a los clientes reservar una cita en solo tres clics, con confirmación instantánea."
+                },
+                {
+                    "name": "Notificaciones Automáticas",
+                    "text": "Las reservas se registran y notifican al propietario en tiempo real, asegurando una gestión eficiente."
+                },
+                {
+                    "name": "Diseño Moderno y Elegante",
+                    "text": "Un estilo visual que equilibra elementos clásicos con toques modernos, representando fielmente la marca."
+                }
+            ],
+            "role": "Desarrollé este proyecto de principio a fin, manejando todo desde la planificación y el diseño hasta la codificación e integración de servicios externos.",
+            "impact": "El sistema mejoró significativamente la experiencia de reserva de los clientes, reduciendo el tiempo y la complejidad del proceso. Además, la presencia en línea ayudó a reflejar el profesionalismo y la calidad de la barbería, atrayendo a más clientes."
+        },
+        "languages": [
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3"
+            },
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name": "Nodejs",
+                "icon": "fa-brands fa-node-js"
+            },
+            {
+                "name": "React",
+                "icon": "fa-brands fa-react"
+            }
+        ],
+        "link": "https://santabarberia-production.up.railway.app/",
+        "github": "https://github.com/NicolasLerch/santa_barberia"
+    },
+    {
+        "id": 2,
+        "image": "streang-logo-v1.png",
+        "title": "Streang",
+        "shortDescription": "Un ecommerce diseñado para una tienda de tecnología, orientado principalmente a videojuegos y productos relacionados con PC.",
+        "description": {
+            "summary": "Streang es una plataforma de comercio electrónico desarrollada como un proyecto en equipo durante un curso de desarrollo full-stack. El sitio permite a los usuarios registrarse y comprar una variedad de productos, tanto digitales como físicos, centrados principalmente en la informática y los videojuegos.",
+            "objectives": "Nuestro objetivo principal era crear un sitio web fácil de usar donde los usuarios pudieran registrarse y acceder a una amplia gama de productos relacionados con la informática y los juegos. La plataforma necesitaba soportar tanto productos digitales como físicos y proporcionar una experiencia de compra fluida.",
+            "technologies": [
+                {
+                    "name": "JavaScript",
+                    "text": "Para interacciones dinámicas del lado del cliente."
+                },
+                {
+                    "name": "Node.js y Express",
+                    "text": "Para manejar la lógica del servidor y los endpoints de la API."
+                },
+                {
+                    "name": "React",
+                    "text": "Para construir una interfaz de usuario receptiva e interactiva."
+                },
+                {
+                    "name": "HTML y CSS",
+                    "text": "Para la estructura y el estilo de las páginas web."
+                },
+                {
+                    "name": "mySQL",
+                    "text": "Utilizado como base de datos relacional para almacenar información de productos y usuarios."
+                },
+                {
+                    "name": "Sequelize",
+                    "text": "Como herramienta de mapeo objeto-relacional (ORM) para la gestión de bases de datos."
+                }
+            ],
+            "keyFeatures": [
+                {
+                    "name": "Control de Acceso Basado en Roles",
+                    "text": "Los usuarios tienen diferentes niveles de acceso y vistas de páginas según sus roles, ya sean clientes o administradores."
+                },
+                {
+                    "name": "Listado Dinámico de Productos",
+                    "text": "Un sistema de gestión de productos fácil de usar con una interfaz dinámica que muestra vistas previas en tiempo real de los productos a medida que se agregan."
+                },
+                {
+                    "name": "Sistema de Validación de Datos",
+                    "text": "Garantiza la integridad y seguridad de los datos a través de procesos de validación exhaustivos."
+                }
+            ],
+            "role": "Aunque fue un esfuerzo en equipo, asumí el papel de líder del proyecto. Organicé reuniones regulares y distribuí tareas de manera equitativa entre los miembros del equipo. Siempre estuve listo para asistir y contribuir en varias áreas. Inicialmente, me enfoqué en el desarrollo de HTML y CSS para estructurar y estilizar el sitio. Más tarde, trabajé principalmente en el backend, utilizando Express, Sequelize y MySQL para implementar operaciones CRUD para la gestión de usuarios y productos.",
+            "impact": "Como el proyecto fue parte de un curso, nunca se lanzó a producción. Sin embargo, sirvió como una valiosa experiencia de aprendizaje y una demostración de nuestra capacidad para colaborar de manera efectiva y construir una plataforma de comercio electrónico funcional y rica en características."
+        },
+        "languages": [
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3"
+
+            },
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name": "mySQL",
+                "icon": "fa-solid fa-database"
+            },
+            {
+                "name": "Nodejs",
+                "icon": "fa-brands fa-node-js"
+            },
+            {
+                "name": "React",
+                "icon": "fa-brands fa-react"
+            }
+        ],
+        "link": null,
+        "github": "https://github.com/DH-Comision-07/grupo_9_Streang"
+    },
+    {
+        "id": 3,
+        "title": "LaBuleka",
+        "image": "logo.png",
+        "shortDescription": "Un sitio web de comercio electrónico para una verdulería, diseñado para permitir a los clientes realizar sus pedidos en línea de manera rápida.",
+        "description": {
+            "summary": "LaBuleka es un sitio web de comercio electrónico desarrollado para una verdulería, diseñado para ofrecer a los clientes una forma rápida y conveniente de realizar sus pedidos en línea.",
+            "objectives": "El objetivo principal de este proyecto fue proporcionar a los clientes un servicio web donde no solo pudieran ver precios y promociones, sino también realizar sus pedidos en línea de manera rápida y eficiente. Este sistema permite a los clientes evitar la espera en la tienda al permitirles recoger sus pedidos pre-preparados.",
+            "technologies": [
+                {
+                    "name": "JavaScript",
+                    "text": "Para crear una experiencia frontend dinámica."
+                },
+                {
+                    "name": "Node.js",
+                    "text": "Para manejar las operaciones del lado del servidor."
+                },
+                {
+                    "name": "MySQL",
+                    "text": "Como sistema de base de datos relacional para gestionar datos de productos y pedidos."
+                },
+                {
+                    "name": "Sequelize",
+                    "text": "Como herramienta ORM para la gestión de bases de datos."
+                },
+                {
+                    "name": "HTML y CSS",
+                    "text": "Para estructurar y estilizar las páginas web."
+                }
+            ],
+            "keyFeatures": [
+                {
+                    "name": "Sistema Integrado de Compra y Pago",
+                    "text": "Un proceso de pago fluido que combina la compra y el pago en un solo lugar."
+                },
+                {
+                    "name": "Vistas y Funciones Basadas en el Rol del Usuario",
+                    "text": "Diferentes funcionalidades y vistas basadas en si el usuario es un cliente o un administrador."
+                },
+                {
+                    "name": "Desarrollo Integral",
+                    "text": "Este proyecto fue completado íntegramente por mí, desde el diseño inicial hasta la implementación completa del frontend y el backend."
+                }
+            ],
+            "role": "Fui responsable de todo el proceso de desarrollo de este proyecto. Esto incluyó diseñar el sitio web y desarrollar tanto el frontend como el backend utilizando tecnologías como Node.js, Express, MySQL y Sequelize.",
+            "impact": "LaBuleka ha permitido a la verdulería ofrecer a sus clientes una nueva forma de realizar sus compras diarias, aumentando la eficiencia del negocio y mejorando la satisfacción del cliente al proporcionar un servicio conveniente y moderno."
+        },
+        "languages": [
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3"
+            },
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name": "Nodejs",
+                "icon": "fa-brands fa-node-js"
+            },
+            {
+                "name": "MySQL",
+                "icon": "fa-solid fa-database"
+            },
+            {
+                "name": "Sequelize",
+                "icon": "fa-brands fa-node-js"
+            }
+        ],
+        "link": null,
+        "github": "https://github.com/NicolasLerch/LaBuleka"
+    }
+]
