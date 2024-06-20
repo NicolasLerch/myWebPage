@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <link rel="stylesheet" href="/css/skillsStyles.css">
-    <%-include('./partials/head.ejs')%>
+    <link rel="stylesheet" href="/css/mainStyles.css">
+    <%-include('../partials/head.ejs')%>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
+    <title>Habilidades</title>
 </head>
 <body>
-    <%-include('./partials/header.ejs')%>
+    <%-include('../partials/headerEs.ejs')%>
 
-    <h1 class="main-title" id="skills-title">Skills</h1>
+    <h1 class="main-title" id="skills-title">Habilidades</h1>
 
-    <h2 class="subtitle" id="techSkills-subtitle">Technical skills</h2>
+    <h2 class="subtitle" id="techSkills-subtitle">Habilidades técnicas</h2>
     <div class="skills-container"  id="skillsContainer">
         <%for (let skill of skills.techSkills){%>
         <div class="skill-card">
@@ -24,7 +25,7 @@
         <%}%>
     </div>
 
-    <h2 class="subtitle" id="softSkills-subtitle">Soft skills</h2>
+    <h2 class="subtitle" id="softSkills-subtitle">Hailidades blandas</h2>
     <div class="skills-container">
         <%for (let skill of skills.softSkills){%>
         <div class="skill-card">
@@ -37,7 +38,7 @@
     </div>
 
 
-    <%-include('./partials/footer.ejs')%>
+    <%-include('../partials/footerEs.ejs')%>
 
 </body>
 </html>

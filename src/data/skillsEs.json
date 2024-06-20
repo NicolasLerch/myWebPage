@@ -1,0 +1,59 @@
+{
+    "softSkills": [
+      {
+        "name": "Responsabilidad",
+        "text": "Soy una persona confiable y dedicada, comprometida a cumplir con los plazos y a entregar trabajo de alta calidad."
+      },
+      {
+        "name": "Compromiso",
+        "text": "Me esfuerzo por cumplir y superar las expectativas en todos los proyectos, asegurándome de que cada detalle se maneje con cuidado. Consistentemente entrego proyectos a tiempo y siempre estoy dispuesto a ayudar a otros para lograr objetivos comunes."
+      },
+      {
+        "name": "Buena Comunicación",
+        "text": "Puedo expresar ideas complejas de manera clara y efectiva, facilitando la colaboración con equipos y clientes. Valoro la crítica constructiva y fomento buenas relaciones entre los miembros del equipo para mejorar la eficiencia."
+      },
+      {
+        "name": "Trabajo en Equipo",
+        "text": "Disfruto colaborar con otros para lograr objetivos comunes, considerando que el trabajo en equipo es esencial en cada proyecto."
+      },
+      {
+        "name": "Liderazgo",
+        "text": "Poseo habilidades de liderazgo para guiar proyectos y equipos hacia objetivos comunes. Organizo actividades de manera efectiva y apoyo a los miembros del equipo para asegurar el éxito."
+      },
+      {
+        "name": "Aprendizaje Rápido",
+        "text": "Tengo una fuerte capacidad para aprender rápidamente nuevas habilidades, tecnologías y metodologías para adaptarme a los requisitos del proyecto. Soy apasionado por el aprendizaje continuo y la mejora de habilidades."
+      },
+      {
+        "name": "Adaptabilidad",
+        "text": "Soy altamente adaptable a nuevos entornos y desafíos, manteniendo la eficiencia y la productividad. Mi adaptabilidad ha sido crucial en mis diversas experiencias profesionales."
+      }
+    ],
+    "techSkills": [
+      {
+        "name": "HTML y CSS",
+        "text": "Sólido entendimiento de los fundamentos del diseño web, capaz de crear sitios web visualmente atractivos y funcionales."
+      },
+      {
+        "name": "JavaScript",
+        "text": "Sólido dominio de JavaScript, incluyendo frameworks populares como React y Node.js, para el desarrollo tanto frontend como backend."
+      },
+      {
+        "name": "SQL",
+        "text": "Experiencia en la creación y gestión de bases de datos relacionales, optimización de consultas y manejo de datos complejos."
+      },
+      {
+        "name": "Python",
+        "text": "Competente en Python, con un enfoque en el desarrollo backend y deseoso de aplicarlo en mis próximos proyectos."
+      },
+      {
+        "name": "MongoDB",
+        "text": "Comprensión básica de las bases de datos NoSQL, específicamente MongoDB, para la gestión de datos no estructurados."
+      },
+      {
+        "name": "Java",
+        "text": "Conocimientos básicos de Java, utilizados en proyectos académicos con un sólido entendimiento de los principios de la programación orientada a objetos."
+      }
+    ]
+  }
+  

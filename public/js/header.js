@@ -13,15 +13,5 @@ document.addEventListener('DOMContentLoaded', function () {
         body.classList.toggle('no-scroll');
     })
 
-    langBtns[0].addEventListener('click', function(){
-        console.log("se hizo click");
-        langBtns[0].classList.toggle('selected');
-        langBtns[1].classList.toggle('selected');
-    })
-
-    langBtns[1].addEventListener('click', function(){
-        console.log("se hizo click");
-        langBtns[0].classList.toggle('selected');
-        langBtns[1].classList.toggle('selected');
-    })
+    
 });

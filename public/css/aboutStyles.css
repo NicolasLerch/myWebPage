@@ -111,6 +111,11 @@
     padding: 20px;
 }
 
+.info-container p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
 .certificates-container{
     display: flex;
     flex-direction: row;
@@ -119,7 +124,6 @@
 }
 
 .info-img{
-    /* height: 25vw; */
     width: 30vw;
     border: 1px solid rgb(106, 25, 182);
     border-radius: 5px;

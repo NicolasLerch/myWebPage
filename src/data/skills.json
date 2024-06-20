@@ -1,0 +1,58 @@
+{
+  "softSkills": [
+    {
+      "name": "Responsibility",
+      "text": "I am a reliable and dedicated person, committed to meeting deadlines and delivering high-quality work."
+    },
+    {
+      "name": "Commitment",
+      "text": "I strive to meet and exceed expectations in all projects, ensuring every detail is handled with care. I consistently deliver projects on time and am always willing to help others to achieve common goals."
+    },
+    {
+      "name": "Good Communication",
+      "text": "I can express complex ideas clearly and effectively, facilitating collaboration with teams and clients. I value constructive criticism and foster good relationships among team members to enhance efficiency."
+    },
+    {
+      "name": "Teamwork",
+      "text": "I enjoy collaborating with others to achieve common goals, considering teamwork essential in every project."
+    },
+    {
+      "name": "Leadership",
+      "text": "I possess leadership skills to guide projects and teams towards common goals. I organize activities effectively and support team members to ensure success."
+    },
+    {
+      "name": "Fast Learning",
+      "text": "I have a strong ability to quickly learn new skills, technologies, and methodologies to adapt to project requirements. I am passionate about continuous learning and skill improvement."
+    },
+    {
+      "name": "Adaptability",
+      "text": "I am highly adaptable to new environments and challenges, maintaining efficiency and productivity. My adaptability has been crucial in my diverse professional experiences."
+    }
+  ],
+  "techSkills": [
+    {
+      "name": "HTML & CSS",
+      "text": "Solid understanding of web design fundamentals, capable of creating visually appealing and functional websites."
+    },
+    {
+      "name": "JavaScript",
+      "text": "Strong command of JavaScript, including popular frameworks like React and Node.js, for both frontend and backend development."
+    },
+    {
+      "name": "SQL",
+      "text": "Experience in creating and managing relational databases, optimizing queries, and handling complex data."
+    },
+    {
+      "name": "Python",
+      "text": "Proficient in Python, with a focus on backend development and eager to apply it in my upcoming projects."
+    },
+    {
+      "name": "MongoDB",
+      "text": "Basic understanding of NoSQL databases, specifically MongoDB, for managing unstructured data."
+    },
+    {
+      "name": "Java",
+      "text": "Basic knowledge of Java, utilized in class projects with a solid grasp of object-oriented programming principles."
+    }
+  ]
+}

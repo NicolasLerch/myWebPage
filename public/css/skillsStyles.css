@@ -1,0 +1,115 @@
+.main-title{
+    text-align: center !important;
+}
+
+.main-title{
+    color: rgb(106, 25, 182);
+    font-size: 2.5em;
+}
+
+.subtitle{
+    color: rgb(106, 25, 182);
+    font-size: 2em;
+    margin-left: 7%;
+}
+
+.skills-container{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.skill-card h3, .skill-card p {
+    margin: 5px;
+}
+
+.skill-card h3{
+    color: rgb(106, 25, 182);
+}
+
+/* .skill-card:hover{
+    background-color: rgba(106, 25, 182, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+} */
+
+.node {
+    position: absolute;
+    left: -20px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: rgba(106, 25, 182, 0.5);
+    border-radius: 50%;
+}
+
+.skill-name {
+    margin-left: 20px; 
+    position: relative;
+    z-index: 2;
+}
+
+
+@keyframes show{
+    0%{
+        scale: 0;
+        opacity: 0;
+    }
+    100%{
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.skill-card{
+    view-timeline-name: --skillCard;
+    view-timeline-axis: block;
+
+    animation-timeline: --skillCard;
+    animation-name:show ;
+
+    animation-range: entry 5% cover 35%;
+    animation-fill-mode: both;
+}
+
+.subtitle{
+    view-timeline-name: --subtitle;
+    view-timeline-axis: block;
+
+    animation-timeline: --subtitle;
+    animation-name:show ;
+
+    animation-range: entry 5% cover 35%;
+    animation-fill-mode: both;
+}
+
+
+.line {
+    position: absolute;
+    left: -10px; /* Ajuste la posición a la izquierda de la tarjeta */
+    width: 2px; /* Ancho de la línea */
+    background-color: rgba(106, 25, 182, 0.5);
+    height: calc(100% - 20px); /* Altura de la línea */
+    top: 10px; /* Ajuste de posición superior */
+    z-index: 1; /* Colocar detrás del nodo */
+    transform: translateY(50%); /* Desplazamiento hacia abajo */
+    opacity: 0; /* Inicialmente oculta la línea */
+}
+
+/* .skill-card.show-line .line {
+    animation: showLine 0.5s ease forwards;
+} */

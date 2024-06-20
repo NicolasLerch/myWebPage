@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/projectsStyles.css">
-    <%-include('./partials/head.ejs')%>
-    <title>Projects</title>
+    <link rel="stylesheet" href="/css/mainStyles.css">
+    <link rel="stylesheet" href="/css/projectsStyles.css">
+    <%-include('../partials/head.ejs')%>
+    <title>Proyectos</title>
 </head>
 <body>
-    <%-include('./partials/header.ejs')%>
-    <h1 class="main-title">My current projects</h1>
+    <%-include('../partials/headerEs.ejs')%>
+    <h1 class="main-title">Mis proyectos actuales</h1>
     <main>
         <%for(let project of projects){%>
         <div class="project-container">
@@ -25,9 +26,9 @@
                 <%if(project.link === null || project.link === ""){%>
                 <a href="" target="_blank" class="project-button noLive" disabled>Live</a>
                 <%} else {%>
-                <a href="<%=project.link%>" target="_blank" class="project-button">Live</a>
+                <a href="<%=project.link%>" target="_blank" class="project-button">En vivo</a>
                 <%}%>
-                <a href="/projects/<%=project.id%>" class="project-button">More info</a>
+                <a href="/es/proyectos/<%=project.id%>" class="project-button">Más info</a>
 
             </div>
         </div>
@@ -35,8 +36,8 @@
     </main>
     
 
-    <%-include('./partials/footer.ejs')%>
-    <script src="js/noLive.js"></script>
+    <%-include('../partials/footerEs.ejs')%>
+    <script src="/js/noLive.js"></script>
     
 </body>
 </html>

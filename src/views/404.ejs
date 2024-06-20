@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/head.ejs')%>
+    <link rel="stylesheet" href="/css/404.css">
+    <link rel="stylesheet" href="/css/mainStyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not found</title>
+</head>
+<body>
+    <%-include('./partials/header.ejs')%>
+
+    <h1 class="main-title">404 - Not found</h1>
+    <p>The page you are looking for does not exist.</p>
+    <p>But you can see a cute dog here</p>
+    <div class="image-container">
+        <img class="dog-image" src="<%= imageURL %>">
+    </div>
+    
+    <button type="button" class="dog-button">See another dog</button>
+
+    <p>Or simply go to <a href="/">home</a> page.</p>
+
+    <p class="hide">Yep, I love sausage dogs. <i class="fa-solid fa-heart"></i></p>
+
+    <%-include('./partials/footer.ejs')%>
+</body>
+<script src="/js/404.js"></script>
+</html>

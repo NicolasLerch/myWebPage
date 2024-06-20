@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('../partials/head')%>
+    <link rel="stylesheet" href="/css/mainStyles.css">
+    <link rel="stylesheet" href="/css/aboutStyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi</title>
+</head>
+<body>
+    <%-include('../partials/headerEs')%>
+
+    <div class="title-container">
+        <span class="main-title">
+            Hola! Soy Nicolás, y soy 
+        </span> 
+        <span class="main-title highlight">
+            Desarrollador Web
+        </span>
+        <span class="main-title">
+            de Córdoba Argentina
+        </span>
+    </div>
+    
+    <main>
+        <h3 class="subtitle">Sobre mi</h3>
+        <div class="about-me">            
+            <p class="description">
+                Soy un programador autodidacta enfocado actualmente en el desarrollo web, 
+                con un interés particular en tecnologías de Back End y experiencia principalmente en Node.js, 
+                Express, MongoDB y MySQL. Además, tengo habilidades en Python; CSS y HTML para frontend, 
+                y conocimientos básicos en Java. Aunque no tengo experiencia previa trabajando 
+                como desarrollador a tiempo completo, he realizado diversos proyectos personales
+                que están disponibles en mi perfil de GitHub, los cuales puedes ver <a href="/projects">aquí</a>.
+            </p>
+            <div class="img-container">
+                <img src="/images/mainImage.JPG" alt="main Image">
+            </div>
+        </div>
+
+        <h3 class="subtitle">Educación</h3>
+        <div class="education">
+            <div class="education-container">
+                <div class="education-description">
+                    <p class="ed-description">
+                    Aunque soy en su mayoría autodidacta, a lo largo de los años he 
+                    tomado diferentes cursos para mejorar mis habilidades y conocimientos 
+                    en este campo. Comencé con CSS y Java, también he tenido experiencias 
+                    con Python y finalmente descubrí JavaScript, el lenguaje en el que me 
+                    estoy enfocando actualmente.
+                    </p>
+                </div>
+
+                <div class="education-panel">
+                    <div class="icons-container">
+                        <button class="icon-btn disabled" id="html-css-btn">HTML CSS</button>
+                        <button class="icon-btn" id="java-btn">Java</button>
+                        <button class="icon-btn" id="python-btn">Python</button>
+                        <button class="icon-btn" id="js-btn">JS</button>
+                        <button class="icon-btn" id="languages-btn">Idiomas</button>
+                        <button class="icon-btn" id="others-btn">Otros</button>
+                    </div>
+                    <div class="info-container">
+                        <div id="html-css" class="html-css">
+                            <p>
+                                Estos fueron los primeros lenguajes con los que tuve contacto cuando empecé. 
+                                Tomé algunos cursos en Google Activate, y fueron mi base para aprender. 
+                                Desde aquellos días hasta ahora, los he utilizado en la mayoría de mis trabajos, 
+                                mejorando continuamente mis conocimientos y habilidades.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/html1.jpg" target="_blank"><img class="info-img" src="/images/html1.jpg" alt="html certificate"></a>
+                                <a href="/images/html2.jpg" target="_blank"><img class="info-img" src="/images/html2.jpg" alt="html certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="java hide" id="java">
+                            <p>
+                                Java fue mi primer encuentro con el desarrollo backend. Tomé un curso en CorderHouse 
+                                y continué estudiándolo por mi cuenta. Aunque recuerdo que fue realmente desafiante,
+                                fue en ese momento cuando me di cuenta de que prefiero el backend.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/java.png" target="_blank"><img class="info-img" src="/images/java.png" alt="java certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="python hide" id="python">
+                            <p>
+                                Después de Java, me adentré en Python. Principalmente a través de un curso en Udemy, 
+                                aprendí los fundamentos y realicé algunos proyectos, que no terminé, 
+                                pero que aún están en mi repositorio de GitHub.
+                            </p>
+                            <!-- <div class="certificates-container">
+                                <a href="/images/java.png" target="_blank"><img class="info-img" src="images/java.png" alt="java certificate"></a>
+                            </div> -->
+                        </div>
+                        <div class="js hide" id="js">
+                            <p>
+                                Como mencioné antes, JavaScript es el lenguaje principal en el que me estoy enfocando y 
+                                en el que considero tener más experiencia, principalmente con Node.js y Express. 
+                                De hecho, como puedes ver, la mayoría de mi trabajo está hecho con JS.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/JSbackend.jpg" target="_blank"><img class="info-img" src="/images/JSbackend.jpg" alt="JavaScript certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="languages hide" id="languages">
+                            <p>
+                                He estudiado inglés desde que tenía aproximadamente 5 años, 
+                                tanto en la escuela como en diferentes academias de manera tradicional. 
+                                Sin embargo, fue cuando crecí que realmente entendí la importancia del inglés, 
+                                así que decidí aprenderlo de verdad. Aunque hice el examen de CAE, 
+                                creo que aprendí más tarde, a través de viajes, al conocer gente y 
+                                especialmente debido al uso diario en redes sociales, así como el 
+                                lenguaje técnico en programación y medicina.
+                            </p>
+                            <p>
+                                En cuanto al francés, conozco los conceptos básicos, 
+                                ya que solo lo estudié en la escuela y durante un semestre 
+                                en un curso ofrecido por la universidad.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/CAE.png" target="_blank"><img class="info-img" src="/images/CAE.png" alt="CAE certificate"></a>
+                                <a href="/images/frances1.jpg" target="_blank"><img class="info-img" src="/images/frances1.jpg" alt="French certificate"></a>
+                            </div>                            
+                        </div>
+                        <div class="others hide" id="others">
+                            <p>
+                                Como profesión principal, soy médico. Obtuve mi título en mayo de 2022 
+                                y desde entonces he trabajado principalmente en atención de emergencias
+                                y urgencias en diversas instituciones. Aunque mi carrera médica no involucra
+                                 directamente la programación, ha desarrollado mis habilidades blandas críticas, 
+                                 incluyendo la comunicación efectiva y el trabajo en equipo tanto en contextos
+                                  disciplinarios como interdisciplinarios. Esta experiencia me ha proporcionado 
+                                  la capacidad de trabajar eficientemente bajo presión, tomar decisiones críticas 
+                                  y desarrollar un carácter sólido.
+                            </p>
+                            <p>
+                                Ahora estoy ansioso por aplicar estas habilidades en el campo del desarrollo web, 
+                                donde mis habilidades para resolver problemas, mi capacidad de resiliencia y trabajo 
+                                en equipo pueden contribuir a proyectos innovadores y equipos dinámicos.
+                            </p>
+                            <div class="certificates-container">
+                                <a href="/images/titulomedicina.jpg" target="_blank"><img class="info-img" src="/images/titulomedicina.jpg" alt="medicine certificate"></a>
+                            </div>                            
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="/js/about.js"></script>
+    <%-include('../partials/footerEs')%>
+</body>
+</html>
