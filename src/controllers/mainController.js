@@ -1,8 +1,10 @@
 const path = require('path')
 const fs = require('fs')
 
-const projectsPath = fs.readFileSync(path.join(__dirname, '../data/projects.json'), 'utf-8')
+const projectsPath = fs.readFileSync(path.join(__dirname, '../data/projects-en.json'), 'utf-8')
 const projects = JSON.parse(projectsPath);
+const skillPath = fs.readFileSync(path.join(__dirname, '../data/skills.json'), 'utf-8')
+const skills = JSON.parse(skillPath)
 
 const controller = {
     mainPage: function(req, res){
@@ -18,7 +20,7 @@ const controller = {
         res.render('contact')
     },
     skills: function(req, res){
-        res.render('skills')
+        res.render('skills', {skills})
     },
     projectDetail: function(req, res){
         let idExists = projects.find(project => project.id == req.params.id);

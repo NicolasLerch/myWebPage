@@ -9,6 +9,7 @@ app.use(express.json())
 // app.use(urlencoded({extended: false}))
 
 const port = parseInt(process.env.PORT) || process.argv[3] || 3000;
+app.use('/data/languages', express.static(path.join(__dirname, 'src/data/languages')));
 app.use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'src/views'))
   .set('view engine', 'ejs');

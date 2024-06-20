@@ -22,9 +22,11 @@
                 </p>
             </div>
             <div class="buttons-container">
-
+                <%if(project.link === null || project.link === ""){%>
+                <a href="" target="_blank" class="project-button noLive" disabled>Live</a>
+                <%} else {%>
                 <a href="<%=project.link%>" target="_blank" class="project-button">Live</a>
-
+                <%}%>
                 <a href="/projects/<%=project.id%>" class="project-button">More info</a>
 
             </div>
@@ -34,6 +36,7 @@
     
 
     <%-include('./partials/footer.ejs')%>
+    <script src="js/noLive.js"></script>
     
 </body>
 </html>

@@ -65,7 +65,8 @@
                 "icon": "fa-brands fa-react"
             }
         ],
-        "link": "https://santabarberia-production.up.railway.app/"
+        "link": "https://santabarberia-production.up.railway.app/",
+        "github":"https://github.com/NicolasLerch/santa_barberia"
     },
     {
         "id":2,
@@ -145,7 +146,8 @@
                 "icon": "fa-brands fa-react"
             }
         ],
-        "link": "#"
+        "link": null,
+        "github":"https://github.com/DH-Comision-07/grupo_9_Streang"
     },
     {
         "id": 3,
@@ -212,6 +214,7 @@
                 "icon": "fa-brands fa-node-js"
             }
         ],
-        "link": "#"
+        "link": "",
+        "github": "https://github.com/NicolasLerch/LaBuleka"
     }    
 ]

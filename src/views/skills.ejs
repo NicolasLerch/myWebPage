@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/css/skillsStyles.css">
     <%-include('./partials/head.ejs')%>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,34 @@
 <body>
     <%-include('./partials/header.ejs')%>
 
-    <h1>Página en construcción</h1>
+    <h1 class="main-title" id="skills-title">Skills</h1>
 
-    <%-include('./partials/footer.ejs')%>    
+    <h2 class="subtitle" id="techSkills-subtitle">Technical skills</h2>
+    <div class="skills-container"  id="skillsContainer">
+        <%for (let skill of skills.techSkills){%>
+        <div class="skill-card">
+            <div class="node"></div>
+            <h3 class="skill-name"><%=skill.name%></h3>
+            <p><%=skill.text%></p>
+            <div class="line"></div>
+        </div>
+        <%}%>
+    </div>
+
+    <h2 class="subtitle" id="softSkills-subtitle">Soft skills</h2>
+    <div class="skills-container">
+        <%for (let skill of skills.softSkills){%>
+        <div class="skill-card">
+            <div class="node"></div>
+            <h3 class="skill-name"><%=skill.name%></h3>
+            <p><%=skill.text%></p>            
+        </div>
+
+        <%}%>
+    </div>
+
+
+    <%-include('./partials/footer.ejs')%>
+
 </body>
 </html>
