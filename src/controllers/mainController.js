@@ -39,6 +39,10 @@ const controller = {
         res.download(path.join(__dirname, '../../public/Lerch_CV_en.pdf'))
     },
 
+    thanks: function(req, res){
+        res.render('contacted')
+    },
+
     // rutas en español
     mainPageEs: function(req, res){
         res.render('es/index-es')
@@ -64,8 +68,10 @@ const controller = {
         res.render('es/about-es')
     },
     downloadCVEs: function(req, res){
-        res.download(path.join(__dirname, '../../public/LerchNicolas_CV.pdf'))
-    }
-}
+        res.download(path.join(__dirname, '../../public/Lerch_CV_es.pdf'))
+    },
+    thanksEs: function(req, res){
+        res.render('es/contacted-es')
+}}
 
 module.exports = controller;

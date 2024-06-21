@@ -9,7 +9,7 @@ router.get('/contact', mainController.contact)
 router.get('/skills', mainController.skills)
 router.get('/projects/:id', mainController.projectDetail)
 router.get('/cv/download', mainController.downloadCV)
-// router.get('/404', mainController.notFound)
+router.get('/thanks', mainController.thanks)
 
 
 // rutas en español
@@ -20,4 +20,5 @@ router.get('/es/proyectos', mainController.projectsEs)
 router.get('/es/proyectos/:id', mainController.projectDetailEs)
 router.get('/es/sobremi', mainController.aboutEs)
 router.get('/es/cv/download', mainController.downloadCVEs)
+router.get('/es/gracias', mainController.thanksEs)
 module.exports = router;
